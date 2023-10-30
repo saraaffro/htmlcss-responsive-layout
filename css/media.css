@@ -5,6 +5,8 @@
 @media all and (min-width: 481px){
 
     /* main */
+
+    /* section demo */
     .row{
         display: flex;
         flex-wrap: wrap;
@@ -18,6 +20,13 @@
     .col-demo.large{
         flex-basis: calc(((100% / 3) * 2) - 20px);
         margin: 10px;
+    }
+
+
+    /* section testimonials */
+    .card{
+        display: flex;
+        align-items: center;
     }
 
 }
