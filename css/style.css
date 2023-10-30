@@ -220,3 +220,52 @@ h4{
     padding-top: 20px;
     font-size: 20px;
  }
+
+ /* section benefits */
+.main.benefits{
+    background-color: #9792e4;
+    padding: 50px 0;
+}
+
+.col-benefits{
+    background-color: white;
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    /* debug */
+    min-height: 100px;
+}
+
+.benefits-title{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.text-benefits{
+    width: 85%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.number{
+    color: #9792e4;
+    font-size: 50px;
+}
+
+.type-benefits{
+    color: #9792e4;
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+.text-benefits p {
+    color: #607689;
+}
+
+.button.more{
+    background-color: #9792e4;
+    width: 50%;
+    margin-top: 20px;
+}

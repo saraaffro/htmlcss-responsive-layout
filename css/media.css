@@ -29,6 +29,17 @@
         align-items: center;
     }
 
+    /* section benefits */
+    .row.benefits{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2%;
+        justify-content: space-between;
+    }
+
+    .col-benefits{
+        flex-basis: 48%;
+    }
 }
 
 
@@ -105,5 +116,10 @@
 
     .col-planning.right img{
         width: 60%;
+    }
+
+    /* section benefits */
+    .col-benefits{
+        flex-basis: calc((100% / 3) - 3%);
     }
 }
