@@ -10,12 +10,12 @@
         flex-wrap: wrap;
     }
     
-    .col{
+    .col-demo{
         flex-basis: calc((100% / 3) - 20px);
         margin: 10px;
     }
     
-    .col.large{
+    .col-demo.large{
         flex-basis: calc(((100% / 3) * 2) - 20px);
         margin: 10px;
     }
@@ -60,6 +60,7 @@
         width: 65%;
     }
 
+    /* section demo */
     .text.large{
         display: flex;
         justify-content: space-between;
@@ -72,7 +73,28 @@
 
     .col-int.right{
         flex-basis: 40%;
+        align-self: flex-end;
         margin-left: 30px;
-        padding-top: 72px;
+    }
+
+    /* section planning */
+    .row.planning{
+        display: flex;
+        align-items: flex-start;
+        gap: 5%;
+        padding: 50px 0;
+    }
+
+    .col-planning{
+        flex-basis: 45%;
+    }
+
+    .col-planning.right{
+        padding-bottom: 0;
+        align-self: flex-end;
+    }
+
+    .col-planning.right img{
+        width: 60%;
     }
 }

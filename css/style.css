@@ -14,6 +14,9 @@ ul{
     list-style-type: none;
 }
 
+p{
+    line-height: 25px;
+}
 
 /* MOBILE FIRST */
 
@@ -65,12 +68,15 @@ main{
 }
 
 /* section demo*/
+.main.demo{
+    padding-bottom: 50px;
+}
 .container{
     width: 85%;
     margin: 0 auto;
 }
 
-.col{
+.col-demo{
     margin-bottom: 30px;
     background-color: #b5ddff;
     border-radius: 20px;
@@ -89,7 +95,6 @@ main{
 
 .text p{
     color: #607689;
-    line-height: 25px;
 }
 
 .text .button{
@@ -130,3 +135,48 @@ main{
     font-size: 80px;
 }
 
+/* section planning */
+.main.planning{
+    background-color: #9792e4;
+    padding-bottom: 50px;
+}
+
+.col-planning.left{
+    color: white;
+}
+
+.col-planning.left img, .col-planning.right img{
+    width: 100%;
+    padding: 30px 0;
+}
+
+.planning-title{
+    padding: 40px 0 60px;
+    font-size: 40px;
+}
+
+.col-planning.right{
+    text-align: center;
+    background-color: white;
+    border-radius: 50px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+.col-planning.right h3{
+    padding: 20px 0;
+}
+
+.button.arrow{
+    background-color: #9792e4;
+    border-radius: 50%;
+    font-size: 20px;
+    width: 50px;
+    margin: 30px auto;
+}
+
+.button.arrow a{
+    color: black;
+    text-align: center;
+    padding: 8px;
+}
