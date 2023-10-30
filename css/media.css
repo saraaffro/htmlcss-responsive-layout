@@ -1,13 +1,9 @@
-
 /* RESPONSIVE */
 
 /* tablet version */
 @media all and (min-width: 481px){
-
-    /* main */
-
     /* section demo */
-    .row{
+    .row-demo{
         display: flex;
         flex-wrap: wrap;
     }
@@ -21,7 +17,6 @@
         flex-basis: calc(((100% / 3) * 2) - 20px);
         margin: 10px;
     }
-
 
     /* section testimonials */
     .card{
@@ -41,6 +36,7 @@
         flex-basis: 48%;
     }
 }
+
 
 
 /* desktop version */
@@ -81,7 +77,7 @@
     }
 
     /* section demo */
-    .text.large{
+    .text-demo.large{
         display: flex;
         justify-content: space-between;
         padding-top: 30px;
