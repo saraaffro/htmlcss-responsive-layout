@@ -1,6 +1,6 @@
 /* RESPONSIVE */
 
-/* tablet version */
+/* TABLET VERSION */
 @media all and (min-width: 481px){
     /* section demo */
     .row-demo{
@@ -76,7 +76,7 @@
 
 
 
-/* desktop version */
+/* DESKTOP VERSION */
 @media all and (min-width: 769px){
 
     /* header */
@@ -159,5 +159,9 @@
     /* footer */
     .container.footer{
         width: 50%;
+    }
+
+    .container.footer.bottom{
+        width: 30%;
     }
 }

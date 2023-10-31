@@ -20,7 +20,7 @@ p{
 
 /* MOBILE FIRST */
 
-/* header */
+/* HEADER */
 header{
     width: 100%;
     position: fixed;
@@ -62,7 +62,7 @@ nav{
     padding: 0;
 }
 
-/* main */
+/* MAIN */
 main{
     padding-top: 120px;
 }
@@ -352,7 +352,9 @@ h4{
     padding-right: 5px;
 }
 
-/* footer */
+/* FOOTER */
+
+/* footer bottom */
 .main.footer-top{
     background-color: #9792e4;
     text-align: center;
@@ -391,5 +393,42 @@ h4{
     font-size: 20px;
 }
 
+.text-footer span{
+    margin-top: 30px;
+    display: inline-block;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-footer span a{
+    color: white;
+    text-decoration: underline;
+}
+
+.fa-circle{
+    font-size: 5px;
+    padding: 5px;
+}
+
+/* footer bottom */
+.main.footer-bottom{
+    background-color: #333333;
+    color: white;
+    text-align: center;
+}
+
+.container.footer>p{
+    margin-bottom: 20px;
+}
+
+.main.footer-bottom a{
+    color: #9792e4;
+}
+
+.container.footer a:hover{
+    text-decoration: underline;
+}
 
 
