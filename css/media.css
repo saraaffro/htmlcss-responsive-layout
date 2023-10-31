@@ -29,7 +29,7 @@
     .col-test.left{
         margin-left: 20px;
         margin-bottom: 0;
-        width: 240px;
+        flex-basis: 30%;
     }
 
     .col-test.right{
@@ -46,6 +46,25 @@
 
     .col-benefits{
         flex-basis: 48%;
+    }
+
+    /* section about us */
+    .row.about-us{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .col-ab.text{
+        flex-basis: 55%;
+    }
+
+    .col-ab.profile{
+        flex-basis: 30%;
+    }
+
+    #fa-quote-left{
+        top: -15px;
+        right: 5px;
     }
 }
 

@@ -214,7 +214,7 @@ h4{
     margin: 0 auto;
  }
 
- .col-test.left{
+ .cont-img-test{
     margin-bottom: 30px;
     position: relative;
     width: 200px;
@@ -223,7 +223,7 @@ h4{
     border-radius: 50%;
 }
 
-.col-test.left img{
+.cont-img-test img{
     width: auto;
     height: 100%;
     margin-left: -50px;
@@ -290,4 +290,59 @@ h4{
     background-color: #9792e4;
     width: 50%;
     margin-top: 20px;
+}
+
+/* section about us */
+#ab-title{
+    font-size: 60px;
+    color: #9792e4;
+    padding-bottom: 30px;
+}
+
+.text-ab{
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.col-ab.profile{
+    position: relative;
+}
+
+#ab-profile{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+#ab-profile img{
+    width: auto;
+    height: 100%;
+}
+
+#fa-quote-left{
+    z-index: 30;
+    font-size: 60px;
+    color: #9792e4;
+    position: absolute;
+    top: -15px;
+    left: 140px;
+}
+
+#desc-profile{
+    font-size: 25px;
+    color: #9792e4;
+    line-height: 40px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.button.linkedin{
+    background-color: #9792e4;
+    width: 80%;
+    margin-top: 30px;
+}
+
+.fa-linkedin{
+    padding-right: 5px;
 }
